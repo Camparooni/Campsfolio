@@ -1,0 +1,39 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #673ab7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #512da8;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav button {
+    border-radius: 5px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #512da8;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

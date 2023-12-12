@@ -4,7 +4,7 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+import './styles/App.css'
 const App = () => {
     const [currentSection, setCurrentSection] = useState('About Me');
 
